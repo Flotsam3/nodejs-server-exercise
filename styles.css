@@ -1,0 +1,56 @@
+form {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  margin: 0 auto;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: cornflowerblue;
+  border: 5px solid darkslategray;
+}
+
+form label {
+  text-align: center;
+  margin: 10px 0;
+}
+
+form input:not([type="submit"]) {
+  height: 30px;
+  background-color: lightsalmon;
+  border: none;
+  text-align: center;
+}
+
+textarea {
+  background-color: lightsalmon;
+  border: none;
+}
+
+form input[type="submit"] {
+  height: 30px;
+  width: 100px;
+  margin: 10px auto;
+  text-align: center;
+  border-radius: 3px;
+}
+
+.output {
+  display: flex;
+  flex-direction: column;
+  height: 200px;
+  width: 500px;
+  margin: 20px auto;
+  border: 3px solid darkslategray;
+  background-color: khaki;
+}
+
+.output p {
+  height: 70%;
+  width: 100%;
+  padding: 10px;
+}
+
+.output button {
+  height: 30px;
+  width: 100px;
+  margin: 0 auto 10px;
+}
