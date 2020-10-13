@@ -30,8 +30,9 @@ app.post("/save/user", function (request, response) {
 app.get("/read/user", function (request, response) {
   readData("./myFile.txt")
     .then((data) => {
+      response.type('json')
       response.status(200);
-      response.send(data);
+      response.send(JSON.stringify(data));
       console.log("Response from the server:");
     })
     .catch(() => {

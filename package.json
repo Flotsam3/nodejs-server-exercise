@@ -1,7 +1,7 @@
 {
-  "name": "node-save-to-file",
+  "name": "save-to-file",
   "version": "1.0.0",
-  "description": "",
+  "description": "In this assignment you will be expected to write a backend system to handle saving and serving information to and from a client.",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -12,6 +12,15 @@
   "license": "ISC",
   "dependencies": {
     "cors": "^2.8.5",
-    "express": "^4.17.1"
-  }
+    "express": "^4.17.1",
+    "nodemon": "^2.0.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Flotsam3/nodejs-server-exercise.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Flotsam3/nodejs-server-exercise/issues"
+  },
+  "homepage": "https://github.com/Flotsam3/nodejs-server-exercise#readme"
 }

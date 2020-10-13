@@ -1,8 +1,19 @@
+main {
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+}
+
+.display {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+}
+
 form {
   display: flex;
   flex-direction: column;
-  width: 500px;
-  margin: 0 auto;
+  width: 400px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   background-color: cornflowerblue;
   border: 5px solid darkslategray;
@@ -30,6 +41,7 @@ form input[type="submit"] {
   width: 100px;
   margin: 10px auto;
   text-align: center;
+  border: none;
   border-radius: 3px;
 }
 
@@ -37,20 +49,30 @@ form input[type="submit"] {
   display: flex;
   flex-direction: column;
   height: 200px;
-  width: 500px;
-  margin: 20px auto;
+  width: 400px;
   border: 3px solid darkslategray;
   background-color: khaki;
 }
 
-.output p {
+.output__text {
   height: 70%;
   width: 100%;
   padding: 10px;
 }
 
-.output button {
+.output__text p {
+  text-align: center;
+}
+
+#show-output {
   height: 30px;
   width: 100px;
   margin: 0 auto 10px;
+  border: none;
+}
+
+.output__button {
+  display: flex;
+  justify-content: center;
+  margin: 10px auto;
 }
